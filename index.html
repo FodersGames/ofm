@@ -1,2 +1,150 @@
-test 1
-<a href="test.html"> entrer </a>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Vente</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            max-width: 1200px;
+        }
+
+        header {
+            background: linear-gradient(to right, #007bff, #00d2ff);
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 1.5px;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .main-content {
+            background: #fff;
+            padding: 40px;
+            margin: 30px 0;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .main-content:hover {
+            transform: translateY(-10px);
+        }
+
+        .main-content h2 {
+            color: #333;
+            font-size: 2.4rem;
+            margin-bottom: 15px;
+            text-align: center;
+            border-bottom: 2px solid #00d2ff;
+            padding-bottom: 10px;
+        }
+
+        .main-content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .cta {
+            background: #007bff; /* Couleur bleu */
+            color: #fff;
+            padding: 15px 30px;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta:hover {
+            background: #0056b3; /* Couleur bleu plus foncé au survol */
+        }
+
+        footer {
+            background: linear-gradient(to right, #007bff, #00d2ff);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            .main-content h2 {
+                font-size: 1.8rem;
+            }
+
+            .cta {
+                font-size: 1.1rem;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Formation IA LEBD</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Générez des revenus avec la formation IA LEBD</h2>
+            <p>Apprenez à vendre des produits digitaux et à générer des revenus en ligne. Notre programme inclut des vidéos, des cours complets et l'accès à un groupe privé.</p>
+            <p><strong>Prix :</strong> 49€</p>
+            <div class="cta">
+                <a href="#" style="color: #fff; text-decoration: none; font-weight: bold; font-size: 1.2rem;">Acheter maintenant</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Formation IA LEBD. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>
